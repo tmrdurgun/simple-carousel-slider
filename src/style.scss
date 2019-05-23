@@ -1,0 +1,20 @@
+    #slider{
+    .slider-container{
+        
+        max-width: 960px;
+        height: 380px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+      
+        .slides{
+          display: flex;
+        flex-direction: row;
+          transition: all 2000ms ease;
+          
+          .slide-item{
+            width: 960px;
+          }
+        }
+      }
+  }

@@ -1,0 +1,24 @@
+{
+  "name": "simple-carousel-slider",
+  "version": "1.0.0",
+  "description": "Very basic carousel slider. Any contributions will be apperciated :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmrdurgun/simple-carousel-slider.git"
+  },
+  "keywords": [
+    "simple",
+    "carousel",
+    "slider"
+  ],
+  "author": "tamer durgun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmrdurgun/simple-carousel-slider/issues"
+  },
+  "homepage": "https://github.com/tmrdurgun/simple-carousel-slider#readme"
+}
