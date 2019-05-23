@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/tmrdurgun/simple-carousel-slider/issues"
   },
-  "homepage": "https://github.com/tmrdurgun/simple-carousel-slider#readme"
+  "homepage": "https://github.com/tmrdurgun/simple-carousel-slider#readme",
+  "devDependencies": {
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.3.3333"
+  }
 }
