@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../src/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Carousel Slider Exapmle 1</title>
+  <link rel="stylesheet" href="../src/style.css">
 </head>
+
 <body>
   <div id="slider">
     <div class="slider-container">
@@ -20,14 +22,25 @@
         <div class="slide-item">
           <img src="https://media.istockphoto.com/photos/cosmic-dance-picture-id480132815" alt="">
         </div>
-        </div>
-      <div class="slides-nav">
-        <a class="prev" href="javascript:void(0)"> < </a>
-        <a class="next" href="javascript:void(0)"> > </a>
       </div>
+      <!-- <div class="slides-nav">
+        <a class="prev" href="javascript:void(0)">
+          < </a>
+            <a class="next" href="javascript:void(0)"> > </a>
+      </div> -->
     </div>
   </div>
 
-    <script src="../src/carousel.js"></script>
+  <script src="../src/carousel.js" async></script>
+
+  <script async>
+    window.onload = function () {
+      const slider = window.simpleCarouselSlider;
+
+      slider.startSlide();
+    }
+  </script>
+
 </body>
+
 </html>
