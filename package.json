@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/tmrdurgun/simple-carousel-slider#readme",
   "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.1",
     "tsconfig-paths": "^3.8.0",
     "tslint": "^5.11.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.9.10"
   }
 }
